@@ -1,6 +1,6 @@
 import React from "react";
-// import Profile from "./Profile.JPG";
-// import "./HomeStyle.css";
+import Profile from "./Profile.JPG";
+import pdf from "./resume.pdf";
 
 
 
