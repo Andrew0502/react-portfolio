@@ -1,7 +1,7 @@
 import React from "react";
 import Profile from "./Profile.JPG";
 import pdf from "./resume.pdf";
-
+import "./homestyle.css";
 
 
 const Home = () => {
