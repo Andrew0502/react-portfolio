@@ -1,0 +1,58 @@
+/* body {
+  background-image: url("./clubroom.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+} */
+
+#AboutMe {
+  background: rgba(255, 255, 255, 0.8);
+  margin-top: 10px;
+  width: 80%;
+  padding: 25px;
+  margin-left: 25px;
+  margin-bottom: 50px;
+}
+
+#ProfileImage {
+  height: 200px;
+  width: 200px;
+  float: left;
+  margin-right: 10px;
+}
+#AboutMeHeader {
+  font-family: "Spectral SC", serif;
+  font-weight: 600;
+  font-size: 48px;
+  color: goldenrod;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+@media (max-width: 768px) {
+  /* #AboutMeHeader {
+        font-size: 36px;
+    } */
+
+  #ProfileImage {
+    height: 150px;
+    width: 150px;
+    float: left;
+    margin-right: 10px;
+  }
+}
+
+@media (max-width: 500px) {
+  #ProfileImage {
+    height: 150px;
+    width: 150px;
+    float: left;
+    margin-right: 10px;
+  }
+
+  #AboutMe {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.8);
+    margin-top: 10px;
+    margin-left: 2px;
+  }
+}
