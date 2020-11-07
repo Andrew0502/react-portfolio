@@ -1,0 +1,135 @@
+#Portfolio {
+  background: rgba(255, 255, 255, 0.8);
+  margin-top: 10px;
+  width: 66%;
+  padding: 25px;
+  margin-left: 143px;
+  margin-bottom: 10px;
+}
+
+#PortfolioHeader {
+  font-family: "Spectral SC", serif;
+  font-weight: 600;
+  font-size: 48px;
+  color: goldenrod;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+h4 {
+  font-family: "Spectral SC", serif;
+  font-weight: 600;
+  font-size: 24px;
+  color: #363695;
+  text-shadow: 1px 1px 1px goldenrod;
+}
+
+#PortfolioRow {
+  margin-left: 10px;
+  justify-content: center;
+}
+
+@media (max-width: 1200px) {
+  .PortfolioPics {
+    float: left;
+    margin-bottom: 10px;
+    height: 225px;
+    width: 225px;
+  }
+  #Portfolio {
+    width: 60%;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    margin-left: 50px;
+  }
+
+  #PortfolioRow {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 900px) {
+  .PortfolioPics {
+    float: left;
+    margin-bottom: 10px;
+    height: 225px;
+    width: 225px;
+  }
+  #Portfolio {
+    width: 70%;
+    background: rgba(255, 255, 255, 0.8);
+    margin-top: 10px;
+    margin-left: 20px;
+    padding: 10px;
+  }
+
+  .PortfolioRow {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 800px) {
+  .PortfolioPics {
+    float: left;
+    margin-bottom: 10px;
+    height: 250px;
+    width: 250px;
+  }
+
+  #Portfolio {
+    width: 90%;
+    background: rgba(255, 255, 255, 0.8);
+    margin-top: 10px;
+    margin-left: 20px;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 700px) {
+  .PortfolioPics {
+    float: left;
+    margin-bottom: 10px;
+    height: 200px;
+    width: 200px;
+  }
+
+  #Portfolio {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.8);
+    margin-top: 10px;
+    margin-left: 20px;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 600px) {
+  .PortfolioPics {
+    float: left;
+    margin-bottom: 10px;
+    height: 200px;
+    width: 200px;
+  }
+
+  #Portfolio {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.8);
+    margin-top: 10px;
+    margin-left: 20px;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 575px) {
+  .PortfolioPics {
+    float: left;
+    margin-bottom: 10px;
+    height: 270px;
+    width: 270px;
+  }
+
+  #Portfolio {
+    width: 95%;
+    background: rgba(255, 255, 255, 0.8);
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+}
