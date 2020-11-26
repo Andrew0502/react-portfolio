@@ -45,8 +45,7 @@ const Home = () => {
                 LinkedIn
               </a>{" "}
               and view his website portfolio at{" "}
-              <a href="https://github.com/7J647"> Github</a>. Also, here is a
-              link to my{" "}
+              Also, here is a link to my{" "}
               <a href={pdf} target="_blank" rel="noreferrer" >Resume.
               </a>{" "}
               Thank you for visiting!
